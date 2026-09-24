@@ -139,8 +139,10 @@ USE_TZ = False
 
 STATIC_URL = "static/"
 
-MEDIA_URL = "/files/media/"
-MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_ROOT = "/files/media"
+MEDIA_URL = "/media/"
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
